@@ -181,8 +181,8 @@ span:hover:after {
 }
 
 .column {
-  -ms-flex: 25%;
-  flex: 25%;
+  -ms-flex: 100%;
+  flex: 100%;
   max-width: 100%;
   padding: 0 4px;
 }
