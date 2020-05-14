@@ -1,6 +1,6 @@
 var _CONSTANT = "Hello, I'm ";
 var _CONTENT = [
-	"Callias Rhea El Char.",
+	"Valerie Megan.",
 	"魏美芳.",
 	"メガン.",
 	"메간.",
