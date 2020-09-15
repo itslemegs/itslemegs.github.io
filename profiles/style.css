@@ -197,6 +197,32 @@ span:hover:after {
   top: 50%;
 }
 
+.grid1 {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+
+}
+.cell1 {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 50%;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.cell1 p {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: grey;
+  top: 50%;
+}
+
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
